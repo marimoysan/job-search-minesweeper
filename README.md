@@ -5,17 +5,15 @@ Welcome to **Job Search Minesweeper**, a fun, interactive take on the classic Mi
 
 ## Features
 
-- **Minesweeper-inspired gameplay**: Just like the classic game, uncover tiles while avoiding the hidden "job mines."
-- **Customization**: Tailor your game board to simulate different job search scenarios (e.g., number of applications, companies, or job offers).
-- **Progress Tracking**: Keep track of your progress and see how you're doing in your job search journey.
-- **Fun and Engaging**: Transform the otherwise stressful job-hunting process into a more enjoyable experience.
+- **Minesweeper-inspired gameplay**: Just like the classic game, uncover tiles while avoiding the hidden "application rejections."
+- **Progress Tracking**: Keep track of your progress and see how far you are in the interview process.
 
 ## How to Play
 
 1. **Start the game**: Click on the start button to generate a board of tiles.
-2. **Uncover tiles**: Each tile represents a job search step. Some tiles might contain mines (representing setbacks), and others will give you positive feedback (like new opportunities or offers).
-3. **Avoid the mines**: Try to avoid the hidden "job mines" while uncovering tiles that provide useful results.
-4. **Clear the board**: Successfully uncover all safe tiles and complete your job search with a clear board!
+2. **Uncover tiles**: Each tile represents a job interview process step. The more tiles revealed, the closer you are to get hired.
+3. **Avoid the mines**: Try to avoid the hidden "job mines" while uncovering tiles.
+4. **Clear the board**: Successfully uncover all safe tiles and complete your job search with a clear board! Congratulations, you got your job"
 
 ## Installation
 
@@ -43,20 +41,6 @@ To get started with the project locally, follow these steps:
    ```
    Open your browser and go to `http://localhost:3000` (or whatever port your app is running on).
 
-## How It Works
-
-### Game Board
-- The game board consists of a grid of tiles that represent different aspects of the job search process.
-- Some tiles have "mines," representing unexpected setbacks (e.g., rejection letters or unresponsive recruiters).
-- Other tiles may contain positive outcomes, such as receiving an interview or a job offer.
-
-### Customization
-- You can adjust the size of the game board or the number of mines, representing a more challenging or relaxed job search experience.
-
-### Tracking Your Progress
-- As you play, the game keeps track of how many safe tiles you've uncovered, allowing you to monitor your progress.
-- You'll be able to see how well you're doing in terms of uncovering job opportunities and avoiding setbacks.
-
 ## Contributing
 
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Whether it's bug fixes, new features, or ideas for improving the gameplay, all contributions are welcome!
@@ -73,3 +57,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Note**: This project is a fun take on the job search process and is not intended to replace actual job-seeking efforts. Best of luck with your job hunt!
+
+**Author:** Marina Moya
+**Date:** 18.03.2025
