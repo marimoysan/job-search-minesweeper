@@ -53,6 +53,9 @@ Here are a few ways you can contribute:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.</br>
+
+---
+
 **Note**: This project is a fun take on the job search process and is not intended to replace actual job-seeking efforts. Best of luck with your job hunt!
 
 ---
