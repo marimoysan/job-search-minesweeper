@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="sidebar">
+            <div class="title">JOB Minesweeper</div>
+
+            <div class="stats">
+                <h3>Progress</h3>
+                <p>Current Stage: <span id="current-stage">1</span></p>
+                <p>Next Stage: <span id="next-stage">2</span></p>
+                <p id="motivation-msg">Let's go! You can do this! 🚀</p>
+            </div>
+
+            <button id="new-game-btn">Start Game</button>
+        </div>
+
+        <!-- Right Column -->
+        <div class="main-content">
+            <div id="game-board"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 JobMineSweeper / marinamoya.org. Have fun!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
