@@ -1,9 +1,7 @@
 
 # Job Search Minesweeper
 
-Welcome to **Job Search Minesweeper**, a fun, interactive take on the classic Minesweeper game designed to make your job search experience a bit more exciting!
-
-This project combines the strategic gameplay of Minesweeper with the real-world challenge of searching for a job, giving you a unique way to engage with the process while staying motivated.
+Welcome to **Job Search Minesweeper**, a fun, interactive take on the classic Minesweeper game designed to make your job search experience a bit more exciting (or at least help you find some time for fun)
 
 ## Features
 
