@@ -1,8 +1,7 @@
-/* General Styling */
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background: #171219;
+    background: #252525;
     color: white;
     margin: 0;
     display: flex;
@@ -10,17 +9,120 @@ body {
     height: 100vh;
 }
 
-/* Main Container: Split into Two Columns */
+h2 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
 .container {
     display: flex;
     height: 90vh;
 }
 
-/* Sidebar (Left Column: 1/3 width) */
+
+/* Sidebar (Left Column) */
 .sidebar {
-    width: 20%;
+    width: 610px;
+    /* Set the width to match background_mail.png size */
     height: 100%;
-    background-color: #F0803C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.mailbox-item-bottom {
+    display: flex;
+    background-color: #16141C;
+    width: 576px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #484C60;
+    border-right: 1px solid #484C60;
+    border-bottom: 1px solid #484C60;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.mailbox-item-top {
+    display: flex;
+    background-color: #16141C;
+    width: 576px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid #484C60;
+    border-right: 1px solid #484C60;
+    border-top: 1px solid #484C60;
+}
+
+/* Email Subject - Align to left */
+.sidebar h2 {
+    text-align: left;
+    /* Align text inside h2 to the left */
+    width: 100%;
+    /* Ensure it stretches across the sidebar */
+    margin-left: 20px;
+    font-size: 22px;
+    /* Remove any default left margin */
+    margin-bottom: 20px;
+}
+
+/* Mailbox Header Image (Email Interface) */
+/* Mailbox Header Image (Email Interface) */
+.mailbox-header {
+    background-image: url('images/background_mail.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 576px;
+    height: 380px;
+    background-color: #16141C;
+    border-left: 1px solid #484C60;
+    border-right: 1px solid #484C60;
+    border-right: 1px solid #484C60;
+    border-top: 1px solid #484C60;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Mailbox Content - The white section below the image */
+.mailbox-content {
+    width: 576px;
+    flex-grow: 1;
+    /* Allow mailbox-content to take the remaining space */
+    /* Ensure content area takes the same width as the image */
+    height: 100%;
+    /* Let it occupy the remaining height */
+    background-color: #ffffff;
+    /* White background for the content section */
+    margin-left: 20px;
+    /* Add 20px margin on the left */
+    margin-right: 20px;
+    /* Add 20px margin on the right */
+    overflow-y: auto;
+    /* Ensure scrolling if content overflows */
+    box-sizing: border-box;
+    border-left: 1px solid #484C60;
+    border-right: 1px solid #484C60;
+}
+
+/* Game Container - Right Column */
+.game-container {
+    flex-grow: 1;
+    /* Take remaining space */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,16 +144,6 @@ body {
     border-radius: 8px;
 }
 
-h3 {
-    color: #225560;
-    font-size: 24px;
-}
-
-p {
-    font-size: 16px;
-    color: #333;
-}
-
 #motivation-msg {
     font-style: italic;
     color: #4CAF50;
@@ -63,10 +155,11 @@ p {
 
 button {
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
-    background-color: #225560;
+    background-color: #E53265;
     color: white;
     border: none;
     cursor: pointer;
@@ -75,15 +168,6 @@ button {
 
 button:hover {
     background-color: #1b4148;
-}
-
-.main-content {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    /* Prevents unnecessary scrolling */
 }
 
 /* Game Board: Fully Responsive */
@@ -138,14 +222,14 @@ button:hover {
 }
 
 /* Footer */
-footer {
+/* footer {
     background: #1b1b1b;
     color: white;
     text-align: center;
     padding: 10px;
+    height: 20px;
     width: 100%;
     position: fixed;
-    /* Stick to the bottom */
     bottom: 0;
     left: 0;
-}
+} */
