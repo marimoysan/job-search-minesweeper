@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: Arial, sans-serif;
-    background: #252525;
+    background-image: url('images/abstract-technology.jpg');
     color: white;
     margin: 0;
     display: flex;
@@ -126,6 +126,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
@@ -133,8 +134,15 @@ p {
     font-size: 40px;
     font-family: Audiowide, sans-serif;
     font-weight: 700;
+    color: hsl(183, 100%, 66%);
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: Audiowide, sans-serif;
+    font-weight: 200;
     margin-bottom: 20px;
-    color: #225560;
+    color: hsl(183, 100%, 66%);
 }
 
 .stats {
@@ -186,7 +194,7 @@ button:hover {
     /* Cells take full column width */
     aspect-ratio: 1 / 1;
     /* Ensures square shape */
-    background-color: #225560;
+    background-color: hsl(183, 100%, 66%);
     display: flex;
     align-items: center;
     justify-content: center;

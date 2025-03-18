@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minesweeper!</title>
+    <title>QuantumHire</title>
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 </head>
@@ -20,8 +20,8 @@
 
             <div class="mailbox-header"></div>
             <div class="mailbox-content">
-                <p>This is the content of the email. You can dynamically change this text based on the game or
-                    application state.</p>
+                <p><span id="current-stage">New job application sent! Let's play.</span></p>
+
             </div>
             <div class="mailbox-item-bottom">
                 <button id="new-game-btn">Start Game</button>
@@ -30,13 +30,14 @@
 
         <!-- Right Column -->
         <div class="game-container">
-            <div class="title">JOB Minesweeper</div>
+            <div class="title">QuantumHire</div>
+            <div class="subtitle">Where AI Meets Recruitment: A High-Tech Interview Experience.</div>
             <div id="game-board"></div>
-            <div class="stats">
+            <!-- <div class="stats">
                 <h3>Progress</h3>
                 <p><span id="current-stage">New job application sent! Let's play.</span></p>
                 <p id="motivation-msg">Let's go! You can do this! 🚀</p>
-            </div>
+            </div> -->
         </div>
     </div>
 
