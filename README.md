@@ -54,9 +54,9 @@ Here are a few ways you can contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
 ---
 
+**Author:** Marina Moya</br>
+**Date:** 18.03.2025</br>
 **Note**: This project is a fun take on the job search process and is not intended to replace actual job-seeking efforts. Best of luck with your job hunt!
-
-**Author:** Marina Moya
-**Date:** 18.03.2025
