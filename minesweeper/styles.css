@@ -49,9 +49,9 @@ p {
     padding-bottom: 10px;
     align-items: center;
     justify-content: center;
-    border-left: 1px solid #484C60;
-    border-right: 1px solid #484C60;
-    border-bottom: 1px solid #484C60;
+    border-left: 3px solid hsl(183, 100%, 66%);
+    border-right: 3px solid hsl(183, 100%, 66%);
+    border-bottom: 3px solid hsl(183, 100%, 66%);
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
@@ -64,9 +64,9 @@ p {
     padding-bottom: 10px;
     align-items: center;
     justify-content: center;
-    border-left: 1px solid #484C60;
-    border-right: 1px solid #484C60;
-    border-top: 1px solid #484C60;
+    border-left: 3px solid hsl(183, 100%, 66%);
+    border-right: 3px solid hsl(183, 100%, 66%);
+    border-top: 3px solid hsl(183, 100%, 66%);
 }
 
 /* Email Subject - Align to left */
@@ -89,11 +89,11 @@ p {
     background-position: top center;
     width: 576px;
     height: 380px;
-    background-color: #16141C;
-    border-left: 1px solid #484C60;
-    border-right: 1px solid #484C60;
-    border-right: 1px solid #484C60;
-    border-top: 1px solid #484C60;
+    background-color: hsl(183, 100%, 66%);
+    border-left: 3px solid hsl(183, 100%, 66%);
+    border-right: 3px solid hsl(183, 100%, 66%);
+    border-right: 3px solid hsl(183, 100%, 66%);
+    border-top: 3px solid hsl(183, 100%, 66%);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -115,8 +115,8 @@ p {
     overflow-y: auto;
     /* Ensure scrolling if content overflows */
     box-sizing: border-box;
-    border-left: 1px solid #484C60;
-    border-right: 1px solid #484C60;
+    border-left: 3px solid hsl(183, 100%, 66%);
+    border-right: 3px solid hsl(183, 100%, 66%);
 }
 
 /* Game Container - Right Column */
